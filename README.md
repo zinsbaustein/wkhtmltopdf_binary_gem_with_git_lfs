@@ -1,5 +1,14 @@
 # wkhtmltopdf_binary_gem
 
+## Tracking large files with Git LFS
+
+You also need to have Git LFS (Large File Storage) installed and the binary files tracked with it
+(e.g. `bin/wkhtmltopdf_*`). See [git-lfs](https://git-lfs.github.com/).
+
+    brew install git-lfs
+    git lfs install
+    git lfs track "bin/wkhtmltopdf_*"
+
 ## Extracting binaries
 
 Hints for extracting binaries from https://wkhtmltopdf.org/downloads.html (dpkg and rpm2cpio is available on Homebrew).
